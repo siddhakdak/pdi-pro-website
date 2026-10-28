@@ -53,7 +53,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   };
   return (
     <html lang="en-IN">
-      <head><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} /></head>
+      <head>
+      <meta name="google-site-verification" content="WkKLCdqPyqtmQftt7op5TrwintNtv7OuvoSWEcCGl3M" /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} /></head>
       <body>{children}</body>
     </html>
   );
