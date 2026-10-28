@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const siteUrl = 'https://www.pdiproudaipur.in';
+const siteUrl = 'https://carpdiproudaipur.vercel.app/';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
